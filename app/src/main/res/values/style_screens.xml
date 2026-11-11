@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Lifetime screen photo grid -->
+    <style name="GridTile">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/bg_title</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <!-- Pro screen comparison table
+         Column weights (must match the header row in the layout):
+         Features = 6.2 | Basic = 1.7 | Pro = 2.1 -->
+    <style name="ProRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ProFeature">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">6.2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+
+    <style name="ProIcon">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:background">@drawable/bg_feature_icon</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="ProName">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/screen_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ProBasic">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.7</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ProPro" parent="ProBasic">
+        <item name="android:layout_weight">2.1</item>
+        <item name="android:background">@drawable/bg_pro_cell</item>
+    </style>
+
+    <style name="ProCheck">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:src">@drawable/ic_check_circle</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="ProCellText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/screen_text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+</resources>

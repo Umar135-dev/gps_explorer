@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_purple">#8B3DFF</color>
+    <color name="home_navy">#0B1A2B</color>
+    <color name="home_text_on_dark">#CFD8E3</color>
+    <color name="home_icon_dark">#2A3340</color>
+    <color name="home_live_red">#E5262B</color>
+</resources>

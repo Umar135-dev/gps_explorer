@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">gps_explorer</string>
+    <string name="close">Close</string>
+    <!--  Lifetime screen  -->
+    <string name="lifetime_title">Unlock GPS Explore Pro:\nMore freedom on every journey</string>
+    <string name="lifetime_label">LIFETIME</string>
+    <string name="lifetime_price">$59.99 one-time payment</string>
+    <string name="lifetime_included">Premium GPS tools included</string>
+    <string name="ai_limits">AI usage limits apply.</string>
+    <string name="claim_offer">Claim Your Offer</string>
+    <!--  Lifetime feature rows (used in LifetimeActivity.kt)  -->
+    <string name="lifetime_feature_1">Explore with premium GPS tools</string>
+    <string name="lifetime_feature_2">Enjoy an ad-free experience</string>
+    <string name="lifetime_feature_3">One payment, no subscription</string>
+    <!--  Planner screen  -->
+    <string name="planner_title">Trip Planner</string>
+    <string name="planner_my_trips">My trips</string>
+    <string name="planner_headline">Your trip,\nbeautifully planned.</string>
+    <string name="planner_subtitle">Discover places you’ll love and organize your days in one simple plan.</string>
+    <string name="planner_feature_places">Personalized\nplaces</string>
+    <string name="planner_feature_itinerary">Daily\nitinerary</string>
+    <string name="planner_feature_directions">Easy\ndirections</string>
+    <string name="planner_plan_my_trip">Plan my trip</string>
+    <!--  Tools screen  -->
+    <string name="tools_title">More Tools</string>
+    <string name="tools_street_view">Street View</string>
+    <string name="tools_street_view_subtitle">Look around before you go.</string>
+    <string name="tools_explore_streets">Explore Streets</string>
+    <string name="tools_view_360">360 View</string>
+    <string name="tools_famous_places">Famous Places</string>
+    <string name="tools_see_all">See all</string>
+    <string name="tools_place_nature">Nature</string>
+    <string name="tools_place_historic">Historic</string>
+    <string name="tools_place_city">City</string>
+    <string name="tools_place_beaches">Beaches</string>
+    <string name="tools_travel_tools">Travel tools</string>
+    <string name="tools_gps_camera">GPS Camera</string>
+    <string name="tools_gps_camera_subtitle">Capture places with details.</string>
+    <string name="tools_compass">Compass</string>
+    <string name="tools_compass_subtitle">Find your direction.</string>
+    <string name="tools_saved_parking">Saved Parking</string>
+    <string name="tools_saved_parking_subtitle">Get back to your car.</string>
+    <!--  Home screen + bottom navigation  -->
+    <string name="current_location">Current location</string>
+    <string name="home_location_placeholder" translatable="false">New York</string>
+    <string name="settings">Settings</string>
+    <string name="home_title">Where will you go next?</string>
+    <string name="ask_ai_hint">Ask AI about your next journey</string>
+    <string name="ask_ai">Ask AI</string>
+    <string name="expand">Expand</string>
+    <string name="live_badge">LIVE</string>
+    <string name="live_earth_title">Live Earth Camera</string>
+    <string name="live_earth_subtitle">Explore the world from above</string>
+    <string name="explore_earth">Explore Earth</string>
+    <string name="route_finder_title">Route Finder</string>
+    <string name="route_finder_subtitle">Find your next destination</string>
+    <string name="find_route">Find a route</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_planner">Planner</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_pro">Pro</string>
+
+
+    <string name="settings_banner_badge" translatable="false">GPS PRO</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_banner_title">Explore more.\nEnjoy ad-free.</string>
+    <string name="settings_unlock_pro">Unlock Pro</string>
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_app_language">App language</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_support">Support &amp; more</string>
+    <string name="settings_help">Help &amp; feedback</string>
+    <string name="settings_rate">Rate the app</string>
+    <string name="settings_share">Share app</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_version">GPSExplore • Version %1$s</string>
+    <string name="settings_share_text">Check out GPS Explore: %1$s</string>
+    <string name="settings_share_title">Share app</string>
+    <string name="settings_feedback_subject">GPS Explore feedback</string>
+    <string name="settings_no_app">No app found to open this.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lang_title">App Language</string>
+    <string name="lang_search_hint">Search Language</string>
+    <string name="lang_selected">Selected language</string>
+    <string name="lang_all">All language</string>
+    <string name="lang_apply">Apply language</string>
+
+</resources>

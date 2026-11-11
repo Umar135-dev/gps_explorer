@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_title">#0B1B3F</color>
+    <color name="splash_title_shadow">#1E88F5</color>
+    <color name="splash_tagline">#6B7A99</color>
+    <color name="splash_dot_active">#1E88F5</color>
+    <color name="splash_dot_inactive">#D3E5FB</color>
+    <color name="splash_footer">#8A96AD</color>
+    <color name="screen_bg">#F5F9FF</color>
+    <color name="screen_primary">#1A8CFF</color>
+    <color name="screen_primary_dark">#0A5CFF</color>
+    <color name="screen_text">#0F172A</color>
+    <color name="screen_text_muted">#64748B</color>
+    <color name="screen_green">#0B6B4B</color>
+    <color name="screen_stroke">#DCE6F5</color>
+    <color name="screen_green_bg">#E7F8EE</color>
+    <color name="screen_green_stroke">#BFE8CF</color>
+    <color name="app_icon_background">#D6E8FF</color>
+    <color name="language_bg">#F7FAFF</color>
+</resources>

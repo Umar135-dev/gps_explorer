@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="@drawable/bg_circle_white"
+                android:contentDescription="@string/close"
+                android:elevation="2dp"
+                android:src="@drawable/ic_close" />
+        </FrameLayout>
+
+        <!-- Photo grid: 2 rows x 4 tiles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="-4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_ocean" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_city" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_green_road" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_earth" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_map" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_mountain_road" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_compass" />
+
+                <com.example.gps_explorer.SquareImageView
+                    style="@style/GridTile"
+                    android:src="@drawable/grid_beach_road" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/lifetime_title"
+            android:textColor="@color/screen_text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/featuresContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical" />
+
+        <!-- Pushes the price card and button to the bottom -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_offer_price"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.05"
+                android:text="@string/lifetime_label"
+                android:textColor="@color/screen_green"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/lifetime_price"
+                android:textColor="@color/screen_green"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/lifetime_included"
+                android:textColor="@color/screen_green"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/ai_limits"
+            android:textColor="@color/screen_text_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/btnClaim"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_btn_primary"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/claim_offer"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

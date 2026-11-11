@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gps_explorer" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/screen_bg</item>
+    </style>
+
+    <style name="Theme.Gps_explorer" parent="Base.Theme.Gps_explorer" />
+
+    <!-- Same as the app theme, but with a matching window background so there is no white flash -->
+    <style name="Theme.Gps_explorer.Language" parent="Theme.Gps_explorer">
+        <item name="android:windowBackground">@color/language_bg</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F4F6FD</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_empty</item>
+        <item name="postSplashScreenTheme">@style/Theme.Gps_explorer</item>
+        <item name="colorPrimary">@color/screen_primary</item>
+    </style>
+
+    <!-- Shared switch style: use on every MaterialSwitch so the colors match -->
+    <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbTint">@color/settings_switch_thumb</item>
+        <item name="trackTint">@color/settings_switch_track</item>
+        <item name="trackDecorationTint">@color/settings_switch_track</item>
+    </style>
+</resources>

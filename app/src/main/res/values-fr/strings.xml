@@ -1,0 +1,70 @@
+<resources>
+    <string name="planner_title">Planificateur de voyage</string>
+    <string name="planner_my_trips">Mes voyages</string>
+    <string name="planner_headline">Votre voyage,\nmagnifiquement planifié.</string>
+    <string name="planner_subtitle">Découvrez des lieux que vous allez adorer et organisez vos journées dans un plan simple.</string>
+    <string name="planner_feature_places">Lieux\npersonnalisés</string>
+    <string name="planner_feature_itinerary">Itinéraire\nquotidien</string>
+    <string name="planner_feature_directions">Itinéraires\nsimples</string>
+    <string name="planner_plan_my_trip">Planifier mon voyage</string>
+    <string name="tools_title">Plus d\'outils</string>
+    <string name="tools_street_view">Street View</string>
+    <string name="tools_street_view_subtitle">Regardez autour de vous avant de partir.</string>
+    <string name="tools_explore_streets">Explorer les rues</string>
+    <string name="tools_view_360">Vue 360°</string>
+    <string name="tools_famous_places">Lieux célèbres</string>
+    <string name="tools_see_all">Tout voir</string>
+    <string name="tools_place_nature">Nature</string>
+    <string name="tools_place_historic">Historique</string>
+    <string name="tools_place_city">Ville</string>
+    <string name="tools_place_beaches">Plages</string>
+    <string name="tools_travel_tools">Outils de voyage</string>
+    <string name="tools_gps_camera">Appareil photo GPS</string>
+    <string name="tools_gps_camera_subtitle">Immortalisez les lieux avec leurs détails.</string>
+    <string name="tools_compass">Boussole</string>
+    <string name="tools_compass_subtitle">Trouvez votre direction.</string>
+    <string name="tools_saved_parking">Parking enregistré</string>
+    <string name="tools_saved_parking_subtitle">Retrouvez votre voiture.</string>
+    <string name="current_location">Position actuelle</string>
+    <string name="settings">Paramètres</string>
+    <string name="home_title">Où irez-vous ensuite ?</string>
+    <string name="ask_ai_hint">Demandez à l\'IA pour votre prochain voyage</string>
+    <string name="ask_ai">Demander à l\'IA</string>
+    <string name="expand">Agrandir</string>
+    <string name="live_badge">EN DIRECT</string>
+    <string name="live_earth_title">Caméra Terre en direct</string>
+    <string name="live_earth_subtitle">Explorez le monde vu d\'en haut</string>
+    <string name="explore_earth">Explorer la Terre</string>
+    <string name="route_finder_title">Recherche d\'itinéraire</string>
+    <string name="route_finder_subtitle">Trouvez votre prochaine destination</string>
+    <string name="find_route">Trouver un itinéraire</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_planner">Planificateur</string>
+    <string name="nav_tools">Outils</string>
+    <string name="nav_pro">Pro</string>
+
+
+    <string name="settings_back">Retour</string>
+    <string name="settings_banner_title">Explorez plus.\nProfitez sans pub.</string>
+    <string name="settings_unlock_pro">Débloquer Pro</string>
+    <string name="settings_preferences">Préférences</string>
+    <string name="settings_app_language">Langue de l\'application</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_support">Assistance et plus</string>
+    <string name="settings_help">Aide et commentaires</string>
+    <string name="settings_rate">Noter l\'application</string>
+    <string name="settings_share">Partager l\'application</string>
+    <string name="settings_privacy">Politique de confidentialité</string>
+    <string name="settings_version">GPSExplore • Version %1$s</string>
+    <string name="settings_share_text">Essayez GPS Explore : %1$s</string>
+    <string name="settings_share_title">Partager l\'application</string>
+    <string name="settings_feedback_subject">Avis sur GPS Explore</string>
+    <string name="settings_no_app">Aucune application trouvée pour ouvrir ceci.</string>
+    <string name="lang_title">Langue de l\'application</string>
+    <string name="lang_search_hint">Rechercher une langue</string>
+    <string name="lang_selected">Langue sélectionnée</string>
+    <string name="lang_all">Toutes les langues</string>
+    <string name="lang_apply">Appliquer la langue</string>
+
+</resources>
+
